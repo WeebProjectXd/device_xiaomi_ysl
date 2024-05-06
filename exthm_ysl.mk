@@ -13,8 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/exthm/config/common.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/exthm/config/phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
