@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_ysl.mk
+    $(LOCAL_DIR)/bliss_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_ysl-user \
-    exthm_ysl-userdebug \
-    exthm_ysl-eng
+    bliss_ysl-user \
+    bliss_ysl-userdebug \
+    bliss_ysl-eng
