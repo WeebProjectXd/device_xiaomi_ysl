@@ -14,11 +14,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/exthm/config/phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := exthm_ysl
+PRODUCT_NAME := bliss_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
